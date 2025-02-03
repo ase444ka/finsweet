@@ -51,6 +51,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+  background-color: bisque;
 }
 
 .display {
@@ -70,46 +71,59 @@ h1 {
 }
 
 h2 {
-font-family: Sen;
-font-size: 36px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -2px;
-
+  font-family: Sen;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
 }
 
 h3 {
-font-family: Sen;
-font-size: 28px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: -1px;
+  font-family: Sen;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
 }
 
 h4 {
-font-family: Sen;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 h5 {
-font-family: Sen;
-font-size: 20px;
-font-weight: 700;
-line-height: 32px;
+  font-family: Sen;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 h6 {
-font-family: Sen;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
+  font-family: Sen;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 label {
-font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 20px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+button {
+  background: var(--yellow);
+  border: none;
+  outline: none;
+  font-family: Sen;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 50px;
+  &:hover {
+    background-color: #edc14a;
+  }
 }
