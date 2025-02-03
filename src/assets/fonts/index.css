@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sen'), url('./Sen/Sen-Regular.ttf');
+}
+
+@font-face {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 800;
+  src: local('Sen'), url('./Sen/Sen-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Sen'), url('./Sen/Sen-Bold.ttf');
+}
+
+@font-face {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Sen'), url('./Sen/Sen-Medium.ttf');
+}
+
+@font-face {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Sen'), url('./Sen/Sen-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inter'), url('./Inter/Inter_24pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Inter'), url('./Inter/Inter_24pt-Medium.ttf');
+}
+
