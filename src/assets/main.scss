@@ -19,8 +19,11 @@ a:active {
 }
 
 .container {
-  max-width: 1278px;
+  max-width: 1440px;
   margin: auto;
+  @media screen and (max-width: 1500px) {
+    padding: 0 82px;
+  }
   @media screen and (max-width: 768px) {
     padding: 0 72px;
   }
