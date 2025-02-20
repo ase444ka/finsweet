@@ -73,6 +73,10 @@
   }
   &__info {
     padding-top: 24px;
+    a {
+      color: var(--yellow);
+
+    }
     time {
       border-left: 1px solid var(--white);
       margin-left: 14px;
